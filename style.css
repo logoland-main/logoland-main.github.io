@@ -1,0 +1,157 @@
+img {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 20px; 
+    background-color: #F2F3F4;
+    color: #000;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+h1 { font-size: 3.5rem; color: #000; margin-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; font-weight: normal; line-height: 1.4; }
+h3 { font-size: 2rem; display: inline-block; }
+
+header, main, footer {
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    header {
+        text-align: left;
+    }
+}
+
+.price {
+    background-color: #171717;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.price:hover {
+    background-color: #212121;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.wa {
+    background-color: #25D366;
+    color: white;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.wa:hover {
+  background-color: #128C7E;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.instagram-btn {
+    display: inline-block;
+    min-width: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.instagram-btn:hover {
+    transform: scale(1.05); 
+}
+
+.tabel {
+    background-color: #171717;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.tabel:hover {
+    background-color: #212121;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.gis {
+    background-color: #61ba33;
+    color: white;
+    box-shadow: 0 4px 15px rgba(97, 186, 51, 0.3);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.gis:hover {
+    background-color: #55a32d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(97, 186, 51, 0.4);
+}
